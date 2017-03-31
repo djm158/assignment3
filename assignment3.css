@@ -1,1 +1,30 @@
 /*styles for assignment 3*/
+
+.container {
+  background-color: blue;
+  width: 200px;
+  height: 100px;
+  color: white;
+  text-align: center;
+  /*margin: auto 0;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+}
+
+.container p {
+  font-size: 3em;
+  font-family: Arial;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;;
+}
+
+ul {
+  padding: 0px;
+}
